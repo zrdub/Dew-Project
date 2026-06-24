@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#dcecff" />
+    <meta
+      name="description"
+      content="Draw on a layer of virtual dew using just your breath and your finger."
+    />
+    <title>Draw Ur Dew</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- MediaPipe's legacy packages expose browser globals instead of reliable ESM exports. -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1675466862/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.4.1633559619/face_mesh.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.js" crossorigin="anonymous"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
