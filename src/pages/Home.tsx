@@ -115,7 +115,7 @@ export default function Home() {
       <footer className="home-footer">
         <span>Camera + hand tracking</span>
         <span className="home-footer__line" />
-        <span>Made to disappear</span>
+        <span>Copyright © Reza Risky</span>
       </footer>
     </main>
   )
